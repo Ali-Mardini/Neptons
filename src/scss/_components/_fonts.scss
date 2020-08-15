@@ -1,0 +1,41 @@
+// Site Font
+
+@font-face {
+    font-family: '#{$framework-font-family}';
+    src: url('#{$font-path}/#{$framework-font-family}-Light.woff2') format('woff2'),
+        url('#{$font-path}/#{$framework-font-family}-Light.woff') format('woff'),
+        url('#{$font-path}/#{$framework-font-family}-Light.ttf') format('truetype'),
+        url('#{$font-path}/#{$framework-font-family}-Light.svg##{$framework-font-family}-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '#{$framework-font-family}';
+    src: url('#{$font-path}/#{$framework-font-family}-Regular.woff2') format('woff2'),
+        url('#{$font-path}/#{$framework-font-family}-Regular.woff') format('woff'),
+        url('#{$font-path}/#{$framework-font-family}-Regular.ttf') format('truetype'),
+        url('#{$font-path}/#{$framework-font-family}-Regular.svg##{$framework-font-family}-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '#{$framework-font-family}';
+    src: url('#{$font-path}/#{$framework-font-family}-Medium.woff2') format('woff2'),
+        url('#{$font-path}/#{$framework-font-family}-Medium.woff') format('woff'),
+        url('#{$font-path}/#{$framework-font-family}-Medium.ttf') format('truetype'),
+        url('#{$font-path}/#{$framework-font-family}-Medium.svg##{$framework-font-family}-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '#{$framework-font-family}';
+    src: url('#{$font-path}/#{$framework-font-family}-Bold.woff2') format('woff2'),
+        url('#{$font-path}/#{$framework-font-family}-Bold.woff') format('woff'),
+        url('#{$font-path}/#{$framework-font-family}-Bold.ttf') format('truetype'),
+        url('#{$font-path}/#{$framework-font-family}-Bold.svg##{$framework-font-family}-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}

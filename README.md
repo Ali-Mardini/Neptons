@@ -1,2 +1,2 @@
 # Neptons
-Source code for Neptons framework
+Mobile first Css framework to build responsive pages with nice components

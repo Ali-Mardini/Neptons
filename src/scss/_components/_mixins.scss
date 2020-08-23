@@ -21,8 +21,6 @@
 // Container mixins
 @mixin make-container($padding-x: $container-padding-x) {
     width: 100%;
-    display: flex;
-    flex-direction: row;
     padding-right: $padding-x;
     padding-left: $padding-x;
     margin-right: auto;
@@ -33,6 +31,34 @@
 // row mixins
 @mixin make-row($padding: $padding-value) {
     width: 100%;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
     padding: $padding;
+}
+
+
+// col mixins
+@mixin make-col($col-number: $x, $col-incr: $z) {
+
+  $i: 0;
+  $counter: 1;
+  @while $counter <= $col-number {
+    $i: $i + $col-incr;
+    .col-#{$counter}{
+      width: $i;
+    }
+
+    $counter: $counter + 1;
+  }
+}
+
+// mobile col mixins
+@mixin make-mobile-col($col-number: $y) {
+  @for $y from 1 to $col-number + 1 {
+    .col-#{$y}{
+      width: 100%;
+    }
+  }
 }

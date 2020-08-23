@@ -3,30 +3,41 @@
 
    
     @include make-container($container-padding);
-    @include make-row($row-padding);
+    .row{
+        @include make-row($row-padding);
+        @include make-mobile-col($col-number);
+    }
 
     @include breakpoint(s){
         @include make-container($container-padding);
-        @include make-row($row-padding);
+        .row{
+            @include make-row($row-padding);
+            @include make-col($col-number, $col-increment);
+        }
+        
     }
 
     @include breakpoint(m){
         @include make-container($container-padding);
-        @include make-row($row-padding);
+        .row{
+            @include make-row($row-padding);
+            @include make-col($col-number, $col-increment);
+        }
     }
 
     @include breakpoint(l){
         @include make-container($container-padding);
-        @include make-row($row-padding);
+        .row{
+            @include make-row($row-padding);
+            @include make-col($col-number, $col-increment);
+        }
     }
 
     @include breakpoint(xl){
         @include make-container($container-padding);
-        @include make-row($row-padding);
+        .row{
+            @include make-row($row-padding);
+            @include make-col($col-number, $col-increment);
+        }
     }
 }
-
-// full container
-// .full-container{
-
-// }

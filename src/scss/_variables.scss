@@ -10,7 +10,12 @@ $breakpoint-l: 980px !default;
 $breakpoint-xl: 1024px !default;
 
 // container values
-$container-padding: 10px;
+$container-padding: 3px;
 
 // row values
 $row-padding: 3px;
+
+//col values
+$col-padding: 1px;
+$col-number: 12;
+$col-increment: 8.333%;

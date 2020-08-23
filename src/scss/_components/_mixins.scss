@@ -48,6 +48,7 @@
     $i: $i + $col-incr;
     .col-#{$counter}{
       width: $i;
+      padding: $col-padding;
     }
 
     $counter: $counter + 1;
@@ -59,6 +60,7 @@
   @for $y from 1 to $col-number + 1 {
     .col-#{$y}{
       width: 100%;
+      padding: $col-padding;
     }
   }
 }

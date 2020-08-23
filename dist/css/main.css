@@ -399,39 +399,51 @@ body {
 }
 .full-container .row .col-1 {
   width: 100%;
+  padding: 5px;
 }
 .full-container .row .col-2 {
   width: 100%;
+  padding: 5px;
 }
 .full-container .row .col-3 {
   width: 100%;
+  padding: 5px;
 }
 .full-container .row .col-4 {
   width: 100%;
+  padding: 5px;
 }
 .full-container .row .col-5 {
   width: 100%;
+  padding: 5px;
 }
 .full-container .row .col-6 {
   width: 100%;
+  padding: 5px;
 }
 .full-container .row .col-7 {
   width: 100%;
+  padding: 5px;
 }
 .full-container .row .col-8 {
   width: 100%;
+  padding: 5px;
 }
 .full-container .row .col-9 {
   width: 100%;
+  padding: 5px;
 }
 .full-container .row .col-10 {
   width: 100%;
+  padding: 5px;
 }
 .full-container .row .col-11 {
   width: 100%;
+  padding: 5px;
 }
 .full-container .row .col-12 {
   width: 100%;
+  padding: 5px;
 }
 @media only screen and (min-width: 576px) {
   .full-container {
@@ -451,39 +463,51 @@ body {
   }
   .full-container .row .col-1 {
     width: 8.333%;
+    padding: 5px;
   }
   .full-container .row .col-2 {
     width: 16.666%;
+    padding: 5px;
   }
   .full-container .row .col-3 {
     width: 24.999%;
+    padding: 5px;
   }
   .full-container .row .col-4 {
     width: 33.332%;
+    padding: 5px;
   }
   .full-container .row .col-5 {
     width: 41.665%;
+    padding: 5px;
   }
   .full-container .row .col-6 {
     width: 49.998%;
+    padding: 5px;
   }
   .full-container .row .col-7 {
     width: 58.331%;
+    padding: 5px;
   }
   .full-container .row .col-8 {
     width: 66.664%;
+    padding: 5px;
   }
   .full-container .row .col-9 {
     width: 74.997%;
+    padding: 5px;
   }
   .full-container .row .col-10 {
     width: 83.33%;
+    padding: 5px;
   }
   .full-container .row .col-11 {
     width: 91.663%;
+    padding: 5px;
   }
   .full-container .row .col-12 {
     width: 99.996%;
+    padding: 5px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -504,39 +528,51 @@ body {
   }
   .full-container .row .col-1 {
     width: 8.333%;
+    padding: 5px;
   }
   .full-container .row .col-2 {
     width: 16.666%;
+    padding: 5px;
   }
   .full-container .row .col-3 {
     width: 24.999%;
+    padding: 5px;
   }
   .full-container .row .col-4 {
     width: 33.332%;
+    padding: 5px;
   }
   .full-container .row .col-5 {
     width: 41.665%;
+    padding: 5px;
   }
   .full-container .row .col-6 {
     width: 49.998%;
+    padding: 5px;
   }
   .full-container .row .col-7 {
     width: 58.331%;
+    padding: 5px;
   }
   .full-container .row .col-8 {
     width: 66.664%;
+    padding: 5px;
   }
   .full-container .row .col-9 {
     width: 74.997%;
+    padding: 5px;
   }
   .full-container .row .col-10 {
     width: 83.33%;
+    padding: 5px;
   }
   .full-container .row .col-11 {
     width: 91.663%;
+    padding: 5px;
   }
   .full-container .row .col-12 {
     width: 99.996%;
+    padding: 5px;
   }
 }
 @media only screen and (min-width: 980px) {
@@ -557,39 +593,51 @@ body {
   }
   .full-container .row .col-1 {
     width: 8.333%;
+    padding: 5px;
   }
   .full-container .row .col-2 {
     width: 16.666%;
+    padding: 5px;
   }
   .full-container .row .col-3 {
     width: 24.999%;
+    padding: 5px;
   }
   .full-container .row .col-4 {
     width: 33.332%;
+    padding: 5px;
   }
   .full-container .row .col-5 {
     width: 41.665%;
+    padding: 5px;
   }
   .full-container .row .col-6 {
     width: 49.998%;
+    padding: 5px;
   }
   .full-container .row .col-7 {
     width: 58.331%;
+    padding: 5px;
   }
   .full-container .row .col-8 {
     width: 66.664%;
+    padding: 5px;
   }
   .full-container .row .col-9 {
     width: 74.997%;
+    padding: 5px;
   }
   .full-container .row .col-10 {
     width: 83.33%;
+    padding: 5px;
   }
   .full-container .row .col-11 {
     width: 91.663%;
+    padding: 5px;
   }
   .full-container .row .col-12 {
     width: 99.996%;
+    padding: 5px;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -610,38 +658,50 @@ body {
   }
   .full-container .row .col-1 {
     width: 8.333%;
+    padding: 5px;
   }
   .full-container .row .col-2 {
     width: 16.666%;
+    padding: 5px;
   }
   .full-container .row .col-3 {
     width: 24.999%;
+    padding: 5px;
   }
   .full-container .row .col-4 {
     width: 33.332%;
+    padding: 5px;
   }
   .full-container .row .col-5 {
     width: 41.665%;
+    padding: 5px;
   }
   .full-container .row .col-6 {
     width: 49.998%;
+    padding: 5px;
   }
   .full-container .row .col-7 {
     width: 58.331%;
+    padding: 5px;
   }
   .full-container .row .col-8 {
     width: 66.664%;
+    padding: 5px;
   }
   .full-container .row .col-9 {
     width: 74.997%;
+    padding: 5px;
   }
   .full-container .row .col-10 {
     width: 83.33%;
+    padding: 5px;
   }
   .full-container .row .col-11 {
     width: 91.663%;
+    padding: 5px;
   }
   .full-container .row .col-12 {
     width: 99.996%;
+    padding: 5px;
   }
 }

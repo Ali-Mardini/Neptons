@@ -3,7 +3,14 @@ $framework-font-family: "IBM Plex Sans" !default;
 $font-path: "../fonts" !default;
 
 // Breakpoints
+// $breakpoint-xs: 320px !default;
 $breakpoint-s: 576px !default;
 $breakpoint-m: 768px !default;
 $breakpoint-l: 980px !default;
 $breakpoint-xl: 1024px !default;
+
+// container values
+$container-padding: 10px;
+
+// row values
+$row-padding: 3px;

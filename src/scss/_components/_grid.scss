@@ -1,0 +1,32 @@
+// container 
+.full-container{
+
+   
+    @include make-container($container-padding);
+    @include make-row($row-padding);
+
+    @include breakpoint(s){
+        @include make-container($container-padding);
+        @include make-row($row-padding);
+    }
+
+    @include breakpoint(m){
+        @include make-container($container-padding);
+        @include make-row($row-padding);
+    }
+
+    @include breakpoint(l){
+        @include make-container($container-padding);
+        @include make-row($row-padding);
+    }
+
+    @include breakpoint(xl){
+        @include make-container($container-padding);
+        @include make-row($row-padding);
+    }
+}
+
+// full container
+// .full-container{
+
+// }

@@ -3,81 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/main.css" />
-    <style>
-        .text-center{
-            text-align: center;
-        }
-
-        [class *= "col-"]{
-            border: #ccc 1px solid;
-            border-radius: 5px;
-            padding: 10px
-        }
-        
-    </style>
+    <title>Typography</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <div class="full-container">
         <div class="row">
-            <div class="col-12 text-center">
-                <h1>Grid System</h1><br/>
+            <div class="col-12">
+                <h1>Typography</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <p class="h1">Heading 1</p>
+            </div>
+            <div class="col-12">
+                <p class="h2">Heading 2</p>
+            </div>
+            <div class="col-12">
+                <p class="h3">Heading 3</p>
+            </div>
+            <div class="col-12">
+                <p class="h4">Heading 4</p>
+            </div>
+            <div class="col-12">
+                <p class="h5">Heading 5</p>
+            </div>
+            <div class="col-12">
+                <p class="h6">Heading 6</p>
+            </div>     
+        </div>
+
+
+        <div class="row">
+            <div class="col-12">
+                <p class="text-muted">This is muted text</p>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-12">
+                <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus aperiam optio quos aliquam repudiandae cum corrupti iure consequuntur est voluptate. Labore doloremque ex laboriosam odit magni alias maxime, tempore eum?</p>
+            </div>
+            <div class="col-12">
+                <p class="text-left">left text</p>
+            </div>
+            <div class="col-12">
+                <p class="text-center">center text</p>
+            </div>
+            <div class="col-12">
+                <p class="text-right">right text</p>
+            </div>
+
+            <div class="col-2">
+                <p class="text-wrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt atque temporibus, </p>
+            </div>
+            <div class="col-2">
+                <p class="text-nowrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt atque temporibus,</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-2">
+                <p class="text-truncate">this text should be truncate </p>
             </div>
         </div>
         <div class="row">
-            <div class="col-6 text-center">
-                .col-6
+            <div class="col-12">
+                <p class="blocktext-red">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A accusantium incidunt, nihil maxime voluptatibus quis quae asperiores delectus quidem repellendus rem dolore praesentium ullam ipsam dolor eos. Quibusdam, sunt placeat.
+                </p>
             </div>
-            <div class="col-6 text-center">
-                .col-6
+
+            <div class="col-12">
+                <p class="blocktext-black">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A accusantium incidunt, nihil maxime voluptatibus quis quae asperiores delectus quidem repellendus rem dolore praesentium ullam ipsam dolor eos. Quibusdam, sunt placeat.
+                </p>
             </div>
-            
+
+            <div class="col-12">
+                <p class="blocktext-green">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A accusantium incidunt, nihil maxime voluptatibus quis quae asperiores delectus quidem repellendus rem dolore praesentium ullam ipsam dolor eos. Quibusdam, sunt placeat.
+                </p>
+            </div>
         </div>
 
         <div class="row">
-            <div class="col-5 text-center">.col-5</div>
-            <div class="col-5 text-center">.col-5</div>
-            <div class="col-2 text-center">.col-2</div>
+            <div class="col-12">
+                <ul class="list-horez">
+                    <li class="list-item">test</li>
+                    <li class="list-item">test</li>
+                    <li class="list-item">test</li>
+                    <li class="list-item">test</li>
+                </ul>
+            </div>
         </div>
 
         <div class="row">
-            <div class="col-4 text-center">.col-4</div>
-            <div class="col-4 text-center">.col-4</div>
-            <div class="col-4 text-center">.col-4</div>
+            <div class="col-12">
+                <img class="img-resp img-white-thumb" src="https://via.placeholder.com/950" />
+            </div>
         </div>
 
         <div class="row">
-            <div class="col-3 text-center">.col-3</div>
-            <div class="col-3 text-center">.col-3</div>
-            <div class="col-3 text-center">.col-3</div>
-            <div class="col-3 text-center">.col-3</div>
+            <div class="col-12">
+                <img class="img-right" src="https://via.placeholder.com/150" />
+                <img class="img-left" src="https://via.placeholder.com/150" />
+            </div>
         </div>
 
         <div class="row">
-            <div class="col-2 text-center">.col-2</div>
-            <div class="col-2 text-center">.col-2</div>
-            <div class="col-2 text-center">.col-2</div>
-            <div class="col-2 text-center">.col-2</div>
-            <div class="col-2 text-center">.col-2</div>
-            <div class="col-2 text-center">.col-2</div>
+            <div class="col-12">
+                <img class="img-right img-circle" src="https://via.placeholder.com/150" />
+                <img class="img-left" src="https://via.placeholder.com/150" />
+            </div>
         </div>
-
-        <div class="row">
-            <div class="col-1 text-center">.col-1</div>
-            <div class="col-1 text-center">.col-1</div>
-            <div class="col-1 text-center">.col-1</div>
-            <div class="col-1 text-center">.col-1</div>
-            <div class="col-1 text-center">.col-1</div>
-            <div class="col-1 text-center">.col-1</div>
-            <div class="col-1 text-center">.col-1</div>
-            <div class="col-1 text-center">.col-1</div>
-            <div class="col-1 text-center">.col-1</div>
-            <div class="col-1 text-center">.col-1</div>
-            <div class="col-1 text-center">.col-1</div>
-            <div class="col-1 text-center">.col-1</div>
-        </div>
-        
     </div>
     <script src="js/index.js" ></script>
 </body>

@@ -1,4 +1,8 @@
-// container 
+/**
+* grid classes 
+* inluce .full-container
+* .row and col-*
+*/
 .full-container{
 
    
@@ -9,6 +13,7 @@
     }
 
     @include breakpoint(s){
+        
         @include make-container($container-padding);
         .row{
             @include make-row($row-padding);
@@ -17,7 +22,9 @@
         
     }
 
+    
     @include breakpoint(m){
+       
         @include make-container($container-padding);
         .row{
             @include make-row($row-padding);
@@ -25,7 +32,9 @@
         }
     }
 
+    
     @include breakpoint(l){
+       
         @include make-container($container-padding);
         .row{
             @include make-row($row-padding);
@@ -33,7 +42,9 @@
         }
     }
 
+     
     @include breakpoint(xl){
+        
         @include make-container($container-padding);
         .row{
             @include make-row($row-padding);

@@ -382,6 +382,11 @@ body {
   font-family: "IBM Plex Sans";
 }
 
+/**
+* grid classes 
+* inluce .full-container
+* .row and col-*
+*/
 .full-container {
   width: 100%;
   padding-right: 3px;
@@ -704,4 +709,199 @@ body {
     width: 99.996%;
     padding: 5px;
   }
+}
+
+/**
+* =============================================== Typography classes
+*/
+/* Headings */
+.h1 {
+  font-size: 38px;
+}
+
+.h2 {
+  font-size: 32px;
+}
+
+.h3 {
+  font-size: 28px;
+}
+
+.h4 {
+  font-size: 24px;
+}
+
+.h5 {
+  font-size: 20px;
+}
+
+.h6 {
+  font-size: 16px;
+}
+
+/* Misc */
+.text-muted {
+  color: #cccccc;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-wrap {
+  white-space: normal !important;
+}
+
+.text-nowrap {
+  white-space: nowrap !important;
+}
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-break {
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.text-lowercase {
+  text-transform: lowercase !important;
+}
+
+.text-capitalize {
+  text-transform: capitalize !important;
+}
+
+.font-bold {
+  font-weight: bold !important;
+}
+
+.font-italic {
+  font-style: italic !important;
+}
+
+.font-thin {
+  font-weight: 100 !important;
+}
+
+.text-blue {
+  color: #007BFF;
+}
+
+.text-red {
+  color: #DC3545;
+}
+
+.text-green {
+  color: #28A745;
+}
+
+.text-yallow {
+  color: #FFC108;
+}
+
+.text-gray {
+  color: #cccccc;
+}
+
+.text-black {
+  color: #343A40;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.bg-blue {
+  background-color: #007BFF;
+}
+
+.bg-red {
+  background-color: #DC3545;
+}
+
+.bg-yallow {
+  background-color: #FFC108;
+}
+
+.bg-gray {
+  background-color: #cccccc;
+}
+
+.bg-light-blue {
+  background-color: #18A2B8;
+}
+
+.blocktext-red {
+  border-left: 2px solid #DC3545;
+  padding-left: 5px;
+}
+
+.blocktext-black {
+  border-left: 2px solid #343A40;
+  padding-left: 5px;
+}
+
+.blocktext-green {
+  border-left: 2px solid #28A745;
+  padding-left: 5px;
+}
+
+.list-horez {
+  display: inline-flex;
+  list-style: none;
+}
+.list-horez .list-item {
+  margin-right: 15px;
+}
+
+.img-resp {
+  width: 100%;
+  height: auto;
+}
+
+.img-white-thumb {
+  border: 5px #ffffff solid;
+  border-radius: 8px;
+}
+
+.img-blue-thumb {
+  border: 5px #18A2B8 solid;
+  border-radius: 8px;
+}
+
+.img-red-thumb {
+  border: 5px #DC3545 solid;
+  border-radius: 8px;
+}
+
+.img-left {
+  float: left !important;
+}
+
+.img-right {
+  float: right !important;
+}
+
+.img-circle {
+  border-radius: 50%;
 }

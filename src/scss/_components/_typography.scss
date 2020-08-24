@@ -1,0 +1,159 @@
+/**
+* =============================================== Typography classes
+*/
+
+
+/* Headings */
+.h1{
+    font-size: $h1;
+}
+.h2{
+    font-size: $h2;
+}
+.h3{
+    font-size: $h3;
+}
+.h4{
+    font-size: $h4;
+}
+.h5{
+    font-size: $h5;
+}
+.h6{
+    font-size: $h6;
+}
+
+/* Misc */
+.text-muted{
+    color: $gray;
+}
+
+.text-justify{
+    text-align: justify !important;
+}
+
+.text-left{
+    text-align: left !important;
+}
+
+.text-center{
+    text-align: center !important;
+}
+
+.text-right{
+    text-align: right !important;
+}
+
+.text-wrap{
+    white-space: normal !important;
+}
+
+.text-nowrap{
+    white-space: nowrap !important;
+}
+
+.text-truncate{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.text-break{
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+}
+
+.text-uppercase{
+    text-transform: uppercase !important;
+}
+
+.text-lowercase{
+    text-transform: lowercase !important;
+}
+
+.text-capitalize{
+    text-transform: capitalize !important;
+}
+
+.font-bold{
+    font-weight: bold !important;
+}
+
+.font-italic{
+    font-style: italic !important;
+}
+
+.font-thin{
+    font-weight: 100 !important;
+}
+
+.text-blue{
+    color: $azure-radiance;
+}
+
+.text-red{
+    color: $punch;
+}
+
+.text-green{
+    color: $eucalyptus;
+}
+
+.text-yallow{
+    color: $amber;
+}
+
+.text-gray{
+    color: $gray;
+}
+
+.text-black{
+    color: $outer-space;
+}
+
+.text-white{
+    color: $white;
+}
+
+.bg-blue{
+    background-color: $azure-radiance;
+}
+
+.bg-red{
+    background-color: $punch;
+}
+
+.bg-yallow{
+    background-color: $amber;
+}
+
+.bg-gray{
+    background-color: $gray;
+}
+
+.bg-light-blue{
+    background-color: $eastern-blue;
+}
+
+.blocktext-red{
+    border-left: 2px solid $punch;
+    padding-left: 5px;
+}
+
+.blocktext-black{
+    border-left: 2px solid $outer-space;
+    padding-left: 5px;
+}
+
+.blocktext-green{
+    border-left: 2px solid $eucalyptus;
+    padding-left: 5px;
+}
+
+.list-horez{
+    display: inline-flex;
+    list-style: none;
+    .list-item{
+        margin-right: 15px;
+    }
+}

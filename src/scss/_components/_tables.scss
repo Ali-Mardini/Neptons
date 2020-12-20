@@ -1,0 +1,33 @@
+.table{
+    border-collapse: collapse;
+	width: 100%;
+	float: left;
+    margin: 0 0 2em;
+	thead {
+        border-bottom: 3px solid $alto;
+        th {
+			padding: 0.35em 0 .35em;
+            font-weight: bold;
+			text-align: left;
+            font-size: 1.25em;
+            padding-left: 1em;
+		}
+    }
+    tbody {
+
+        tr {
+			border-bottom: 1px solid $alto;
+       
+			td {
+                padding: .75em 0;
+                padding-left: 1em;
+            }
+        }
+    }
+}
+
+.table-dark{
+    @extend .table;
+    color: $white;
+    background-color: $outer-space;
+}

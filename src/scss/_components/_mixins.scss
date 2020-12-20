@@ -65,3 +65,25 @@
     }
   }
 }
+
+@mixin make-loader {
+  @for $i from 1 to 101{
+     #{$i}%   {width: #{$i}+'%';}
+  }
+}
+
+@mixin make-buttons($color: $c) {
+    background-color: $color;
+    @if($color == $alto){
+      color: $outer-space;
+    }
+    @else{
+      color:$white;
+    }
+    border: darken($color: $color, $amount: 9);
+
+    &:active{
+        background-color: darken($color: $color, $amount: 9);
+    }
+}
+

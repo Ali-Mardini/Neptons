@@ -1,0 +1,97 @@
+.alert {
+    position: relative;
+    border: 1px $alto solid;
+    padding: 1em;
+    border-radius: 0.5em;
+    color: $white;
+    padding-right: 50px;
+
+    button {
+        position: absolute;
+        right: 25px;
+        top: 30%;
+        height: 25px; 
+        width: 25px;  
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: 1px solid $alto; 
+        border-radius: 50%;
+
+        span{
+            &:before,&:after{
+                position: absolute;
+                content: '';
+                width: 10px;
+                height: 1px; /* cross thickness */
+                background-color: $outer-space;
+            }
+            &:before{
+                transform: rotate(45deg);
+            }
+            &:after{
+                transform: rotate(-45deg);
+            }
+        }
+    }
+}
+
+.alert-success {
+    @extend .alert;
+    background-color: $eucalyptus;
+}
+
+.alert-error{
+    @extend .alert;
+    background-color: $punch;
+}
+
+.toast{
+    position: relative;
+    border: 1px $alto solid;
+    padding: 1em;
+    border-radius: 0.5em;
+    color: $white;
+    padding-right: 50px;
+    animation: toast-fadeOut 5s infinite;
+}
+
+.toast-success{
+    @extend .toast;
+    background-color: $eucalyptus;
+
+    span{
+        position: absolute;
+        background-color: lighten($color: $eucalyptus, $amount: 7);
+        width: 0%;
+        height: 10px;
+        bottom: 0px;
+        left: 0px;
+        border-bottom-left-radius: 0.5em;
+        border-bottom-right-radius: 0.5em;
+        animation: toast-success 5s infinite;
+    }
+}
+
+.toast-error{
+    @extend .toast-success;
+    background-color: $punch;
+    span{
+        background-color: lighten($color: $punch, $amount: 7);
+    }
+}
+
+
+@-webkit-keyframes toast-success{
+    @include make-loader();
+}
+
+@-webkit-keyframes toast-fadeOut{
+    0% {opacity: 1;}
+    50% {opacity: 0.8;}
+    60% {opacity: 0.7;}
+    70% {opacity: 0.6;}
+    80% {opacity: 0.5;}
+    90% {opacity: 0.4;}
+    100% {opacity: 0;display: none;}
+}

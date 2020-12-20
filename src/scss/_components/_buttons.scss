@@ -1,0 +1,42 @@
+.btn{
+    background:none;
+    outline: none;
+    border: 0.5px solid $alto;
+    border-radius: 5px;
+    min-width: 75px;
+    padding: 0.3em;
+
+    &:hover{
+        outline: darken($color: $alto, $amount: 7);
+    }
+}
+
+.btn-block{
+    @extend .btn;
+    width: 100%;
+
+}
+
+.btn-green{
+    @include make-buttons($eucalyptus);
+}
+
+.btn-blue{
+    @include make-buttons($azure-radiance);
+}
+
+.btn-yallow{
+    @include make-buttons($amber);
+}
+
+.btn-red{
+    @include make-buttons($punch);
+}
+
+.btn-black{
+    @include make-buttons($outer-space);
+}
+
+.btn-light{
+    @include make-buttons($alto);
+}

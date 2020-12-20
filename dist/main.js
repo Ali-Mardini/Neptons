@@ -90,11 +90,35 @@
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/*! exports provided: default */
+/*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"js/index.js\");\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_helper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/helper */ \"./src/js/helper.js\");\n/* harmony import */ var _js_alert__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./js/alert */ \"./src/js/alert.js\");\n\n\nvar closeAlert = document.querySelectorAll('div.alert > button');\nconsole.log(closeAlert);\n\nif (closeAlert != null) {\n  for (var i = 0; i < closeAlert.length; i++) {\n    console.log(closeAlert[i]);\n    closeAlert[i].addEventListener(\"click\", function () {\n      console.log(this);\n      var el = this.parentElement;\n      console.log(el);\n      var alert = new _js_alert__WEBPACK_IMPORTED_MODULE_1__[\"Alert\"]();\n      alert.closeAlert(el);\n    });\n  }\n}\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/js/alert.js":
+/*!*************************!*\
+  !*** ./src/js/alert.js ***!
+  \*************************/
+/*! exports provided: Alert */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Alert\", function() { return Alert; });\n/* harmony import */ var _js_helper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../js/helper */ \"./src/js/helper.js\");\n\nclass Alert {\n  // close alert\n  closeAlert(el) {\n    console.log(el);\n    el.style.display = \"none\";\n  }\n\n  toastFadout(el) {\n    setTimeout(function () {}, 3000);\n  }\n\n}\n\n//# sourceURL=webpack:///./src/js/alert.js?");
+
+/***/ }),
+
+/***/ "./src/js/helper.js":
+/*!**************************!*\
+  !*** ./src/js/helper.js ***!
+  \**************************/
+/*! exports provided: convertToObject */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"convertToObject\", function() { return convertToObject; });\nfunction convertToObject(obj, el) {\n  obj = {};\n\n  for (var i in el) {\n    obj[i] = el[i];\n  }\n\n  return obj;\n}\n\n\n\n//# sourceURL=webpack:///./src/js/helper.js?");
 
 /***/ }),
 

@@ -1,0 +1,11 @@
+.form-input{
+    width: 100%;
+    border: 1px solid $alto;
+    background: none;
+    border-radius: 5px;
+    height: 28px;
+
+    &:focus{
+        border: 1px solid lighten($color: $eastern-blue, $amount: 8);
+    }
+}

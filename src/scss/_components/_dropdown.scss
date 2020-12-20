@@ -1,0 +1,19 @@
+.dropdown{
+    width: 100%;
+    border: 1px solid $alto;
+    background: none;
+    border-radius: 5px;
+}
+
+.dropdown-search{
+    position: relative;
+    button{
+       @extend .dropdown;
+    }
+
+    .top{
+        button{
+            
+        }
+    }
+}
